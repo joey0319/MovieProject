@@ -4,10 +4,6 @@
 
 
 
-
-
-[toc]
-
 ## 목차
 
 - [개요](#개요)
@@ -17,6 +13,13 @@
 - [데이터베이스 및 URL](#데이터베이스-및-url)
   - [데이터베이스](#데이터베이스)
   - [API_URL(BackEnd, Django)](#api-urlbackend-django)
+  - [router URL](#router-urlfrontend-vue)
+- [구조 설계](#구조-설계)
+  - [App.vue](#app-vue)
+  - [Home](#home)
+  - [Community](#community)
+  - [Rating](#rating)
+  - [Profile](#profile)
 
 ## 개요
 
