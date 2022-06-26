@@ -16,7 +16,7 @@
 - [일정](#일정)
 - [데이터베이스 및 URL](#데이터베이스-및-url)
   - [데이터베이스](#데이터베이스)
-  - [API_URL(BackEnd, Django)](#api_urlbackend,-django)
+  - [API_URL(BackEnd, Django)](#api-urlbackend,-django)
 
 ## 개요
 
@@ -65,7 +65,7 @@
 
 
 
-### API_URL(BackEnd, Django)
+### API URL(BackEnd, Django)
 
 |         | URL패턴                        | 역할                     |
 | ------- | ------------------------------ | ------------------------ |
@@ -86,7 +86,7 @@
 
 
 
-### router_URL(FrontEnd, Vue)
+### router URL(FrontEnd, Vue)
 
 | 이름               | path                                  | component               |
 | ------------------ | ------------------------------------- | ----------------------- |
