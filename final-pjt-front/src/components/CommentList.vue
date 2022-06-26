@@ -1,0 +1,37 @@
+<template>
+  <div class="comment-list">
+    
+    <ul>
+      <comment-list-item 
+        v-for="comment in comments" 
+        :comment="comment" 
+        :key="comment.pk">
+      </comment-list-item>        
+    </ul>
+
+    <comment-list-form></comment-list-form>
+  </div>
+</template>
+
+<script>
+import CommentListItem from '@/components/CommentListItem.vue'
+import CommentListForm from '@/components/CommentListForm.vue'
+// import { mapGetters, mapActions } from 'vuex'
+
+
+export default {
+  name: 'CommentList',
+  components: { CommentListForm, CommentListItem },
+  props: { comments: Array },
+}
+</script>
+
+<style>
+.comment-list {
+  border: 4px solid mediumblue;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+</style>
