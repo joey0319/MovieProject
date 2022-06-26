@@ -16,7 +16,7 @@
 - [일정](#일정)
 - [데이터베이스 및 URL](#데이터베이스-및-url)
   - [데이터베이스](#데이터베이스)
-  - [API_URL(BackEnd, Django)](#api-urlbackend,-django)
+  - [API_URL(BackEnd, Django)](#api-urlbackend-django)
 
 ## 개요
 
