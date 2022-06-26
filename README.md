@@ -15,7 +15,7 @@
   - [API_URL(BackEnd, Django)](#api-urlbackend-django)
   - [router URL](#router-urlfrontend-vue)
 - [구조 설계](#구조-설계)
-  - [App.vue](#app-vue)
+  - [App.vue](#appvue)
   - [Home](#home)
   - [Community](#community)
   - [Rating](#rating)
